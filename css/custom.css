@@ -45,49 +45,87 @@
 .row .columns:first-child { 
   margin-left: 0; }
 
-/* For devices larger than 550px */
-@media (min-width: 550px) {
+.container .column,
+  .container .columns {
+    margin-left: 4%; }
+.container .one.column,
+.container .one.columns          { width: 4.66666666667%; }
+.container .two.columns          { width: 13.3333333333%; }
+.container .three.columns        { width: 22%;            }
+.container .four.columns         { width: 30.6666666667%; }
+.container .five.columns         { width: 39.3333333333%; }
+.container .six.columns          { width: 48%;            }
+.container .seven.columns        { width: 56.6666666667%; }
+.container .eight.columns        { width: 65.3333333333%; }
+.container .nine.columns         { width: 74.0%;          }
+.container .ten.columns          { width: 82.6666666667%; }
+.container .eleven.columns       { width: 91.3333333333%; }
+.container .twelve.columns       { width: 100%; margin-left: 0; }
+
+.container .one-third.column     { width: 30.6666666667%; }
+.container .two-thirds.column    { width: 65.3333333333%; }
+
+.container .one-half.column      { width: 48%; }
+
+/* Offsets */
+.container .row .offset-by-one        { margin-left: 8.66666666667%; }
+.container .row .offset-by-two        { margin-left: 17.3333333333%; }
+.container .row .offset-by-three      { margin-left: 26%;            }
+.container .row .offset-by-four       { margin-left: 34.6666666667%; }
+.container .row .offset-by-five       { margin-left: 43.3333333333%; }
+.container .row .offset-by-six        { margin-left: 52%;            }
+.container .row .offset-by-seven      { margin-left: 60.6666666667%; }
+.container .row .offset-by-eight      { margin-left: 69.3333333333%; }
+.container .row .offset-by-nine       { margin-left: 78.0%;          }
+.container .row .offset-by-ten        { margin-left: 86.6666666667%; }
+.container .row .offset-by-eleven     { margin-left: 95.3333333333%; }
+
+.container .row .offset-by-one-third  { margin-left: 34.6666666667%; }
+.container .row .offset-by-two-thirds { margin-left: 69.3333333333%; }
+
+.container .row .offset-by-one-half   { margin-left: 52%; }
+@media (max-width: 550px) {
   
   .container .column,
   .container .columns {
-    margin-left: 4%; }
+    margin-left: 0%; }
   
   .container .one.column,
-  .container .one.columns          { width: 4.66666666667%; }
-  .container .two.columns          { width: 13.3333333333%; }
-  .container .three.columns        { width: 22%;            }
-  .container .four.columns         { width: 30.6666666667%; }
-  .container .five.columns         { width: 39.3333333333%; }
-  .container .six.columns          { width: 48%;            }
-  .container .seven.columns        { width: 56.6666666667%; }
-  .container .eight.columns        { width: 65.3333333333%; }
-  .container .nine.columns         { width: 74.0%;          }
-  .container .ten.columns          { width: 82.6666666667%; }
-  .container .eleven.columns       { width: 91.3333333333%; }
+  .container .one.columns          { width: 100%; }
+  .container .two.columns          { width: 100%; }
+  .container .three.columns        { width: 100   }
+  .container .four.columns         { width: 100%; }
+  .container .five.columns         { width: 100%; }
+  .container .six.columns          { width: 100   }
+  .container .seven.columns        { width: 100%; }
+  .container .eight.columns        { width: 100%; }
+  .container .nine.columns         { width: 100   }
+  .container .ten.columns          { width: 100%; }
+  .container .eleven.columns       { width: 100%; }
   .container .twelve.columns       { width: 100%; margin-left: 0; }
 
-  .container .one-third.column     { width: 30.6666666667%; }
-  .container .two-thirds.column    { width: 65.3333333333%; }
+  .container .one-third.column     { width: 100%; }
+  .container .two-thirds.column    { width: 100%; }
 
-  .container .one-half.column      { width: 48%; }
+  .container .one-half.column      { width: 100%; }
 
   /* Offsets */
-  .container .row .offset-by-one        { margin-left: 8.66666666667%; }
-  .container .row .offset-by-two        { margin-left: 17.3333333333%; }
-  .container .row .offset-by-three      { margin-left: 26%;            }
-  .container .row .offset-by-four       { margin-left: 34.6666666667%; }
-  .container .row .offset-by-five       { margin-left: 43.3333333333%; }
-  .container .row .offset-by-six        { margin-left: 52%;            }
-  .container .row .offset-by-seven      { margin-left: 60.6666666667%; }
-  .container .row .offset-by-eight      { margin-left: 69.3333333333%; }
-  .container .row .offset-by-nine       { margin-left: 78.0%;          }
-  .container .row .offset-by-ten        { margin-left: 86.6666666667%; }
-  .container .row .offset-by-eleven     { margin-left: 95.3333333333%; }
+  .container .row .offset-by-one        { margin-left: 0; }
+  .container .row .offset-by-two        { margin-left: 0; }
+  .container .row .offset-by-three      { margin-left: 0;  }
+  .container .row .offset-by-four       { margin-left: 0; }
+  .container .row .offset-by-five       { margin-left: 0; }
+  .container .row .offset-by-six        { margin-left: 0;  }
+  .container .row .offset-by-seven      { margin-left: 0; }
+  .container .row .offset-by-eight      { margin-left: 0; }
+  .container .row .offset-by-nine       { margin-left: 0;  }
+  .container .row .offset-by-ten        { margin-left: 0; }
+  .container .row .offset-by-eleven     { margin-left: 0; }
 
-  .container .row .offset-by-one-third  { margin-left: 34.6666666667%; }
-  .container .row .offset-by-two-thirds { margin-left: 69.3333333333%; }
+  .container .row .offset-by-one-third  { margin-left: 0; }
+  .container .row .offset-by-two-thirds { margin-left: 0; }
 
-  .container .row .offset-by-one-half   { margin-left: 52%; }
+  .container .row .offset-by-one-half   { margin-left: 0; }
 
 }
 
