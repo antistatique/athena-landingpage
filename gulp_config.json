@@ -1,8 +1,9 @@
 {
   "app": {
     "env": "dev",
-    "basedir": ".",
-    "ghpages": "."
+    "basedir": "build",
+    "ghpages": "build"
   },
-  "tasks":  "./tasks/"
+  "tasks": "./tasks/",
+  "build": "build/"
 }

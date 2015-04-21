@@ -12,7 +12,9 @@ module.exports = function(gulp, $, config, browserSync, runSequence) {
       },
       open: false
     });
-    gulp.watch(['./*.html'], reload);
+    gulp.watch(['./*.html'], function() {
+      runSequence('clean', 'build', reload);
+    });
   });
 
 }
