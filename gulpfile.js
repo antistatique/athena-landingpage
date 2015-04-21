@@ -13,7 +13,7 @@ var gulp          = require('gulp'),
  * Build
  */
 gulp.task('build', function(){
-  return gulp.src(['./*.html', 'css/*.css', 'images/*.*'], { base: './' })
+  return gulp.src(['CNAME', './*.html', 'css/*.css', 'images/*.*'], { base: './' })
     .pipe(gulp.dest('build/'));
 });
 
