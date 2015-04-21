@@ -168,6 +168,13 @@ body {
   padding-top: 60px;
 }
 
+.logo-wrapper {
+  width: 141px;
+  height: 36px;
+  margin: 0;
+  text-align: left;
+}
+
 .feature {
   width: 160px;
   height: 160px;
@@ -180,6 +187,7 @@ body {
   height: 80px;
 }
 
+.logo-wrapper img,
 .feature img,
 .feature-half img {
   max-width: 100%;
