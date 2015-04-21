@@ -93,13 +93,13 @@
   .container .one.column,
   .container .one.columns          { width: 100%; }
   .container .two.columns          { width: 100%; }
-  .container .three.columns        { width: 100   }
+  .container .three.columns        { width: 100%; }
   .container .four.columns         { width: 100%; }
   .container .five.columns         { width: 100%; }
-  .container .six.columns          { width: 100   }
+  .container .six.columns          { width: 100%; }
   .container .seven.columns        { width: 100%; }
   .container .eight.columns        { width: 100%; }
-  .container .nine.columns         { width: 100   }
+  .container .nine.columns         { width: 100%; }
   .container .ten.columns          { width: 100%; }
   .container .eleven.columns       { width: 100%; }
   .container .twelve.columns       { width: 100%; margin-left: 0; }
