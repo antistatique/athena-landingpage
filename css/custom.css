@@ -154,18 +154,18 @@ body {
   background-image: url('../images/intro.jpg');
   background-size: cover;
   color: #fff;
-  padding-bottom: 5rem;
+  padding-bottom: 60px;
 }
 
 .digital-dust {
   background-color: #eaf0f0;
-  padding-top: 5rem;
+  padding-top: 60px;
 }
 
 .midnight-blue {
   background-color: #000032;
   color: #fff;
-  padding-top: 5rem;
+  padding-top: 60px;
 }
 
 .feature {
@@ -196,7 +196,7 @@ body {
   background-image: url('../images/outro.jpg');
   background-size: cover;
   color: #fff;
-  padding-bottom: 5rem;
+  padding-bottom: 60px;
 }
 
 .outro a {
